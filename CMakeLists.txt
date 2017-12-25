@@ -90,6 +90,7 @@ file(COPY "tools/segnet-batch.sh" DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 
 
 # build samples & utilities
+add_subdirectory(unet-console)
 
 add_subdirectory(segnet-console)
 add_subdirectory(segnet-camera)
